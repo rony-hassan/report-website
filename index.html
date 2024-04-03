@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Google Fonts start here-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!--Google Fonts ends here-->
+    <!--Font awesome cdn start here-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Font awesome cdn ends here-->
+    <link rel="stylesheet" href="style.css">
+    <title>Website Project</title>
+</head>
+<body>
+    <!--header starts here-->
+    <header id="blog-header">
+        <figure class="logo-figure">
+            <i class="fab fa-autoprefixer logo"></i>
+        </figure>
+        <i class="fas fa-bars fa-4x" id="menu-icon" ></i>
+        <nav id="menu" class="hidden">
+            <ul >
+                <li><a href="#blog-banner-section" class="nav__link">Home</a></li>
+                <li><a href="#website-layout" class="nav__link">About</a></li>
+                <li><a href="#archieves" class="nav__link">Archieves</a></li>
+                <li><a href="#website-layout" class="nav__link">Blog Posts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--header ends here-->
+    <main>
+        <!--blog-banner section starts here-->
+       <section id="blog-banner-section" class="banner">
+        <article>
+           <h1 class="banneer__heading">Web Development</h1>
+           <p class="banner_description text-justify">
+               Web development is the process of creating, building, and maintaining websites or web applications that are accessible via the internet. It encompasses a wide range of tasks, including web design, front-end development, back-end development, server configuration, database management, and more.</p>
+        </article>
+        <aside>
+           <img src="./images/cover-photo.jpg" alt="cover photo" class="banner__img">
+        </aside>
+      </section>
+     <!--blog-banner section ends here-->
+     <!--Layout section starts here-->
+      <section id="website-layout" class="section-center">
+        <h2 class="section-heading text-white">Layout</h2>
+        <div class="cards">
+            <div class="card">
+                <h3 class="card__header">Blog</h3>
+                <p class="card__description">Currently i am a student but besides this i love to do some blog design. If you want to know more about this click below.</p>
+                <a href="#blog-posts"><button class="btn card__btn">Read More</button></a>
+                
+            </div>
+            <div class="card">
+                <h3 class="card__header">About</h3>
+                <p class="card__description">I am a student and right now i am studying at Green University of Bangladesh .</p>
+                <a href="#blog-about"><button class="btn card__btn">Read More</button></a>
+                
+            </div>
+        </div>
+      </section>
+        
+      <!--Layout section ends here-->
+     <!--Archieve section starts here-->
+     <section id="archieves" class="section-center">
+        <h2 class="section-heading">Archieves</h2>
+        <div class="archieves-container">
+            <ul class="archieves__lists">
+                <li class="archieves__list"><img src="./images/img-1.jpg" alt="image1" class="archieves__img"></li>
+                <li class="archieves__list"><img src="./images/img-2.jpg" alt="image2" class="archieves__img"></li>
+                <li class="archieves__list"><img src="./images/img-3.jpg" alt="image3" class="archieves__img"></li>
+                <li class="archieves__list"><img src="./images/img-1.jpg" alt="image4" class="archieves__img"></li>
+            </ul>
+        </div>
+      </section>
+      <!--Archieve section ends here-->
+      <!--Blog-posts section starts here-->
+      <section id="blog-posts" class="section-center">
+        <h2 class="section-heading">Blog Posts</h2>
+        <div class="blog-posts section-center">
+            <div class="blog-post">
+                <aside class="blog-post__aside">
+                    <img src="./images/news.jpg" alt="blog-img2">
+                </aside>
+                <article class="blog-post__content">
+                    <h2 class="blog-post__heading">Blog 1</h2>
+                    <h3 class="blog-post__sub-heading">
+                        News
+                    </h3>
+                    <p class="blog-post__description">
+                        Newsworthy articles are intriguing to audiences because of their timeliness.
+                         People want to know what the buzz is all about and are more apt to click on your article when they think it’s helping them “be in the know.” 
+                    </p>
+                    
+                </article>
+            </div>
+            <div class="blog-post">
+                <aside class="blog-post__aside">
+                    <img src="./images/personal.png" alt="blog-img2">
+                </aside>
+                <article class="blog-post__content">
+                    <h2 class="blog-post__heading">Blog 2</h2>
+                    <h3 class="blog-post__sub-heading">
+                        Personal Stories
+                    </h3>
+                    <p class="blog-post__description">
+                        Great storytellers can engage people no matter what the topic. 
+                        The more you can connect with somebody on an emotional level, the more likely they’ll trust you, which could lead to them buying from you.
+                    </p>
+                    
+                </article>
+            </div>
+            <div class="blog-post">
+                <aside class="blog-post__aside">
+                    <img src="./images/guest-blogging.webp" alt="blog-img2">
+                </aside>
+                <article class="blog-post__content">
+                    <h2 class="blog-post__heading">Blog 3</h2>
+                    <h3 class="blog-post__sub-heading">
+                        Guest Blogging
+                    </h3>
+                    <p class="blog-post__description">
+                        Guest blogging is beneficial because you can deliver a fresh perspective on your industry, product, service, and more. 
+                        There are multiple benefits for both you and the guest blogger.
+                    </p>
+                    
+                </article>
+            </div>
+        </div>
+      </section>
+      <!--Blog-posts section ends here-->
+      <!--About me section starts here-->
+      <section id="blog-about" class="section-center">
+        <h2 class="section-heading text-white">About Me</h2>
+        <div class="cards">
+            <div class="card">
+                <h3 class="card__header">Education</h3>
+                <p class="card__description">I have done my SSC from Bhater Char D.A. Mannan High School. And completed my HSC from Sonargaon College.
+                    Right Now, i am studying on Computer Science and Engineering at Green University of Bangladesh. Already completed two years and two more to go.
+                </p>
+                
+            </div>
+            <div class="card">
+                <h3 class="card__header">Skills</h3>
+                <p class="card__description">Not much but i have a proper knowledge on C, Java. Now i am learning HTML, CSS & Javascript using which i am doing a project right now.
+                    I am intended do to more courses in my near future. Hope i will learn about PHP, Python and as for framework i prefer react.
+                </p>
+                
+            </div>
+        </div>
+      </section>
+      <!--About me section ends here-->
+    </main>
+
+    <footer class="footer">
+        <!--footer section starts here-->
+        <p class="copyright__text">
+            Copyright &copy; by Rony Hassan. All rights reserved 
+        </p>
+        <nav class="footer__nav">
+            <a href="#blog-banner-section" class="footer__link">
+                <i class="fa fa-home footer__icon"></i>
+            </a>
+            <a href="https://www.facebook.com/roni.hassan.75685/" target="_blank" class="footer__link">
+                <i class="fab fa-facebook footer__icon"></i>
+            </a>
+            <a href="https://www.youtube.com/channel/UCxUiP8b5XifDbYWbQ-b2X6Q" target="_blank" class="footer__link">
+                <i class="fab fa-youtube footer__icon"></i>
+            </a>
+            <a href="https://github.com/ronyhassancse" target="_blank" class="footer__link">
+                <i class="fab fa-github footer__icon"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/rony-hassan-944105238/" target="_blank" class="footer__link">
+                <i class="fab fa-linkedin footer__icon"></i>
+            </a>
+        </nav>
+        <!--footer section ends here-->
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
